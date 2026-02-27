@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(){
+    int a;
+    printf("Enter a number:");
+    scanf("%d",&a);
+    int *ptr=&a;
+    printf("Address of number:%d\n",ptr);
+    printf("Value of number:%d\n",*ptr);
+    return 0;
+}
